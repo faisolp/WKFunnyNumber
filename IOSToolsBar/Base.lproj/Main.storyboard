@@ -115,10 +115,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" alpha="0.55000000000000004" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="luke-chesser-50.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="dTE-hV-6jK">
-                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HGU-76-YSK">
                                 <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                                 <items>
@@ -153,6 +149,9 @@
                                     </barButtonItem>
                                 </items>
                             </toolbar>
+                            <imageView userInteractionEnabled="NO" alpha="0.55000000000000004" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="luke-chesser-50.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="dTE-hV-6jK">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
@@ -162,10 +161,15 @@
                             <constraint firstItem="HGU-76-YSK" firstAttribute="top" secondItem="dQY-Pv-bYj" secondAttribute="bottom" id="KCb-WL-zBY"/>
                             <constraint firstAttribute="trailing" secondItem="HGU-76-YSK" secondAttribute="trailing" id="Kty-FZ-BcP"/>
                             <constraint firstItem="sGK-TC-kFC" firstAttribute="leading" secondItem="G42-Oc-0xL" secondAttribute="leading" id="N27-ab-WDz"/>
+                            <constraint firstAttribute="trailing" secondItem="dTE-hV-6jK" secondAttribute="trailing" id="QAm-y0-OXy"/>
                             <constraint firstItem="YWA-gY-qR8" firstAttribute="centerX" secondItem="G42-Oc-0xL" secondAttribute="centerX" id="WCj-lR-iKN"/>
+                            <constraint firstAttribute="trailing" secondItem="dTE-hV-6jK" secondAttribute="trailing" id="Yi1-2F-hGB"/>
                             <constraint firstAttribute="trailing" secondItem="sGK-TC-kFC" secondAttribute="trailing" id="g6K-ua-qa4"/>
                             <constraint firstAttribute="trailingMargin" secondItem="YWA-gY-qR8" secondAttribute="trailing" id="lUX-Ef-PPv"/>
+                            <constraint firstItem="dTE-hV-6jK" firstAttribute="leading" secondItem="G42-Oc-0xL" secondAttribute="leading" id="lhB-q7-Djq"/>
+                            <constraint firstItem="dTE-hV-6jK" firstAttribute="leading" secondItem="G42-Oc-0xL" secondAttribute="leading" id="oSU-oo-vhp"/>
                             <constraint firstItem="HGU-76-YSK" firstAttribute="leading" secondItem="G42-Oc-0xL" secondAttribute="leading" id="r73-gK-6EI"/>
+                            <constraint firstItem="9Iy-mR-TeN" firstAttribute="top" secondItem="dTE-hV-6jK" secondAttribute="bottom" id="s9V-C7-KmA"/>
                         </constraints>
                     </view>
                     <connections>

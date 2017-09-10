@@ -19,12 +19,17 @@ class TimerViewController: UIViewController {
     
     
     @IBAction func btnPlay(_ sender: Any) {
+        print("Click play")
     }
     
     
     @IBAction func btnStop(_ sender: Any) {
+        print("Click Stop")
     }
     
+    //---------------------------------
+    
+    var intNumber : Int = 1
     //---------------------------------
 
     override func viewDidLoad() {
