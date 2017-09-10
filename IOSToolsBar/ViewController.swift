@@ -19,27 +19,43 @@ class ViewController: UIViewController {
   
     
     @IBAction func btnIncNum(_ sender: Any) {
-        let newNumber = addNumber(_intNum: 1)
+        //let newNumber = addNumber(_intNum: 1)
+        let newNumber = mcNumber.addNumber(intNum: intNumA)
         intNumA = newNumber
-        labNum.text = String(  newNumber)
+        labNum.text = String(newNumber)
         
         print("Click btnIncNum=>\(newNumber)")
     }
     
     
     @IBAction func btnDecNum(_ sender: Any) {
-        let newNumber = addNumber(_intNum: -1)
+         //let newNumber = addNumber(_intNum: -1)
+         let newNumber = mcNumber.decNumber(intNum: intNumA)
+        
         intNumA = newNumber
         labNum.text = String(newNumber)
 
         print("Click btnDecNum=>\(newNumber)")
     }
     
+  
    
+    @IBAction func resetNumber(_ sender: Any) {
+        
+      
+        let newNumber = mcNumber.zeroNumber()
+        
+        intNumA = newNumber
+        labNum.text = String(newNumber)
+        
+        print("Click btnResetN=>\(newNumber)")
+
+    }
     //-------------------------------
     //Var
     
     var intNumA:Int = 1
+    var mcNumber = MyClass()
     
     //-------------------------------
     //Fun

@@ -45,7 +45,11 @@
                                 <items>
                                     <barButtonItem systemItem="action" id="htY-3X-NLx"/>
                                     <barButtonItem style="plain" systemItem="flexibleSpace" id="BUr-HU-4n0"/>
-                                    <barButtonItem systemItem="refresh" id="Zgg-q9-Yrp"/>
+                                    <barButtonItem systemItem="refresh" id="Zgg-q9-Yrp">
+                                        <connections>
+                                            <action selector="resetNumber:" destination="BYZ-38-t0r" id="k0g-yz-XpX"/>
+                                        </connections>
+                                    </barButtonItem>
                                     <barButtonItem style="plain" systemItem="flexibleSpace" id="LW1-sl-LKg"/>
                                     <barButtonItem systemItem="organize" id="OMT-Yn-L8I"/>
                                     <barButtonItem width="42" style="plain" systemItem="fixedSpace" id="KzG-gW-8Yg"/>
@@ -63,12 +67,16 @@
                             <imageView userInteractionEnabled="NO" alpha="0.55000000000000004" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="nick-hillier-339049.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="CuI-PN-9Xz">
                                 <rect key="frame" x="0.0" y="20" width="375" height="647"/>
                             </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="if_number_123_1553072.png" translatesAutoresizingMaskIntoConstraints="NO" id="hWT-yq-7WU">
+                                <rect key="frame" x="112" y="79" width="151" height="128"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="0h5-YN-e6W" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="8En-9i-jXe"/>
                             <constraint firstAttribute="trailing" secondItem="CuI-PN-9Xz" secondAttribute="trailing" id="ElY-oA-cfQ"/>
                             <constraint firstAttribute="trailing" secondItem="HIN-fE-Alg" secondAttribute="trailing" id="Hvg-kX-oi3"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="hWT-yq-7WU" secondAttribute="trailing" constant="96" id="LDe-dp-8jv"/>
                             <constraint firstItem="srW-UV-jH9" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="SfU-fL-Pb7"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="CuI-PN-9Xz" secondAttribute="bottom" id="XSX-41-Z1I"/>
                             <constraint firstItem="HIN-fE-Alg" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="bEG-3w-tAo"/>
@@ -78,8 +86,10 @@
                             <constraint firstItem="0h5-YN-e6W" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="kaw-aX-GTI"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="HIN-fE-Alg" secondAttribute="bottom" id="kbh-mU-Ms6"/>
                             <constraint firstItem="srW-UV-jH9" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="waW-ZE-eIL"/>
+                            <constraint firstItem="hWT-yq-7WU" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="96" id="wfM-sn-0at"/>
                             <constraint firstItem="CuI-PN-9Xz" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="x7S-jd-PxI"/>
                             <constraint firstItem="CuI-PN-9Xz" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="xmf-Ml-1zA"/>
+                            <constraint firstItem="hWT-yq-7WU" firstAttribute="top" secondItem="srW-UV-jH9" secondAttribute="bottom" constant="15" id="yhh-ce-bwI"/>
                         </constraints>
                     </view>
                     <connections>
@@ -93,6 +103,7 @@
     </scenes>
     <resources>
         <image name="ic_save.png" width="24" height="24"/>
+        <image name="if_number_123_1553072.png" width="128" height="128"/>
         <image name="nick-hillier-339049.jpg" width="6000" height="4000"/>
     </resources>
 </document>

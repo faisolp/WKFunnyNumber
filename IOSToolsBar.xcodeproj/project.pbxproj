@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		B14427E61F64FA95004B7060 /* MyClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = B14427E51F64FA95004B7060 /* MyClass.swift */; };
+		B14427E81F6509EC004B7060 /* if_number_123_1553072.png in Resources */ = {isa = PBXBuildFile; fileRef = B14427E71F6509EC004B7060 /* if_number_123_1553072.png */; };
 		B179A1161F64DB03002C856D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B179A1151F64DB03002C856D /* AppDelegate.swift */; };
 		B179A1181F64DB03002C856D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B179A1171F64DB03002C856D /* ViewController.swift */; };
 		B179A11B1F64DB03002C856D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B179A1191F64DB03002C856D /* Main.storyboard */; };
@@ -21,6 +22,7 @@
 
 /* Begin PBXFileReference section */
 		B14427E51F64FA95004B7060 /* MyClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyClass.swift; sourceTree = "<group>"; };
+		B14427E71F6509EC004B7060 /* if_number_123_1553072.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = if_number_123_1553072.png; sourceTree = "<group>"; };
 		B179A1121F64DB03002C856D /* IOSToolsBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IOSToolsBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B179A1151F64DB03002C856D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B179A1171F64DB03002C856D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -65,6 +67,7 @@
 		B179A1141F64DB03002C856D /* IOSToolsBar */ = {
 			isa = PBXGroup;
 			children = (
+				B14427E71F6509EC004B7060 /* if_number_123_1553072.png */,
 				B179A12D1F64E27B002C856D /* nick-hillier-339049.jpg */,
 				B179A1271F64E0A1002C856D /* ic_save_2x.png */,
 				B179A1281F64E0A1002C856D /* ic_save_3x.png */,
@@ -144,6 +147,7 @@
 				B179A1201F64DB03002C856D /* LaunchScreen.storyboard in Resources */,
 				B179A11D1F64DB03002C856D /* Assets.xcassets in Resources */,
 				B179A12C1F64E0A1002C856D /* ic_save.png in Resources */,
+				B14427E81F6509EC004B7060 /* if_number_123_1553072.png in Resources */,
 				B179A11B1F64DB03002C856D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -7,3 +7,20 @@
 //
 
 import Foundation
+
+class MyClass {
+   // var intNumA:Int = 1
+    
+    func addNumber(intNum: Int) -> Int {
+        let newNum  = intNum + 1
+        return newNum
+    }
+    func decNumber(intNum: Int) -> Int {
+        let newNum  = intNum - 1
+        return newNum
+    }
+    func zeroNumber() -> Int {
+        
+        return 1
+    }
+}
