@@ -10,34 +10,44 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    
+    //Link Control
     @IBOutlet weak var labNum: UILabel!
     
     
     //-------------------------------
-    
+    //Action
   
     
-    
     @IBAction func btnIncNum(_ sender: Any) {
-        print("Click btnIncNum")
+        let newNumber = addNumber(_intNum: 1)
+        intNumA = newNumber
+        labNum.text = String(  newNumber)
+        
+        print("Click btnIncNum=>\(newNumber)")
     }
-    
     
     
     @IBAction func btnDecNum(_ sender: Any) {
-        print("Click btnDecNum")
+        let newNumber = addNumber(_intNum: -1)
+        intNumA = newNumber
+        labNum.text = String(newNumber)
+
+        print("Click btnDecNum=>\(newNumber)")
     }
     
+   
+    //-------------------------------
+    //Var
     
-    
-    
-    
+    var intNumA:Int = 1
     
     //-------------------------------
-    
-    
-    
+    //Fun
+    func addNumber(_intNum: Int) -> Int {
+        let resut  = intNumA + _intNum
+        
+        return resut
+    }
     
     
 

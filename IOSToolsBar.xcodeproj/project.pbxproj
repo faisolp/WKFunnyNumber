@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B14427E61F64FA95004B7060 /* MyClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = B14427E51F64FA95004B7060 /* MyClass.swift */; };
 		B179A1161F64DB03002C856D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B179A1151F64DB03002C856D /* AppDelegate.swift */; };
 		B179A1181F64DB03002C856D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B179A1171F64DB03002C856D /* ViewController.swift */; };
 		B179A11B1F64DB03002C856D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B179A1191F64DB03002C856D /* Main.storyboard */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B14427E51F64FA95004B7060 /* MyClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyClass.swift; sourceTree = "<group>"; };
 		B179A1121F64DB03002C856D /* IOSToolsBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IOSToolsBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B179A1151F64DB03002C856D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B179A1171F64DB03002C856D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -46,6 +48,7 @@
 		B179A1091F64DB03002C856D = {
 			isa = PBXGroup;
 			children = (
+				B14427E51F64FA95004B7060 /* MyClass.swift */,
 				B179A1141F64DB03002C856D /* IOSToolsBar */,
 				B179A1131F64DB03002C856D /* Products */,
 			);
@@ -154,6 +157,7 @@
 			files = (
 				B179A1181F64DB03002C856D /* ViewController.swift in Sources */,
 				B179A1161F64DB03002C856D /* AppDelegate.swift in Sources */,
+				B14427E61F64FA95004B7060 /* MyClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
