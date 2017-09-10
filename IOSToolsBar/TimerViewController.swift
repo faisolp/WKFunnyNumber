@@ -20,17 +20,33 @@ class TimerViewController: UIViewController {
     
     @IBAction func btnPlay(_ sender: Any) {
         print("Click play")
+        timerObjet = Timer.scheduledTimer(
+            timeInterval: 1 // Sec
+            , target: self // Anyware
+            , selector: #selector(TimerViewController.playTime) //call func playTime
+            , userInfo: nil // null
+            , repeats:true) // Call again
+        
     }
     
     
     @IBAction func btnStop(_ sender: Any) {
         print("Click Stop")
+        timerObjet.invalidate() //Stop Timmer
     }
-    
+    //Expicit // Implicit
     //---------------------------------
     
     var intNumber : Int = 1
+    var timerObjet = Timer()
+    
     //---------------------------------
+    //---------------------------------
+    func playTime() -> Void {
+        intNumber += 1
+        labCount.text = String(intNumber)
+        
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
